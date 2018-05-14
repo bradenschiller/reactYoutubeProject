@@ -3,7 +3,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search-bar';
 import VideoList from './components/video-list';
 import './App.css';
-const API_KEY = 'AIzaSyBW8l80elLwlM-WNwcJaRjTt-WRBhLRM5Q';
+import youtubeKey from './keys.js';
 
 
 
@@ -13,7 +13,7 @@ class App extends Component {
 
     this.state = { videos: [] }
 
-    YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => {
+    YTSearch({key: youtubeKey, term: 'surfboards'}, (videos) => {
       this.setState({ videos });
       console.log(videos)
     });
