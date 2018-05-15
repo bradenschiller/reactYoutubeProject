@@ -31,19 +31,65 @@
   }
 }
 
-.bigHeader {
-  color: white;
-  font-size: 30px;
-  background: blue;
-  padding: 2em;
-  width: 40%;
-  margin-left: 600px;
+
+/*
+searchbar -------------------------------------------------------------------------------------------------------------------------------------- */
+
+nav {
+  text-align: center;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  background-color: white;
 }
 
+
 .searchBar {
-  width: 350px;
-  margin-top: 30px;
-  margin-left: 700px;
-  padding: 15px;
-  font-size: 20px;
+ margin: 20px;
+ width: 40%;
+ padding-left: 10px;
+}
+
+.searchBar input {
+  width: 75%;
+}
+
+.searchbarDiv {
+  margin-bottom: 100px;
+}
+
+/*
+videodetails -------------------------------------------------------------------------------------------------------------------------------------- */
+.embed-responsive {
+  width: 50%;
+  height: 50%;
+}
+
+.description-tag-video-deatails {
+  font-weight: bolder;
+}
+
+
+/*
+list-group -------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.videodetails .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
 }
