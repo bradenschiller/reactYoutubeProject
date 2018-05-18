@@ -31,6 +31,9 @@
   }
 }
 
+.add-top-margin {
+  margin-top: 80px;
+}
 
 /*
 searchbar -------------------------------------------------------------------------------------------------------------------------------------- */
@@ -44,15 +47,14 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index:1;
+  z-index: 1;
   background-color: white;
 }
 
-
 .searchBar {
- margin: 20px;
- width: 40%;
- padding-left: 10px;
+  margin: 20px;
+  width: 40%;
+  padding-left: 10px;
 }
 
 .searchBar input {
@@ -66,18 +68,16 @@ nav {
 /*
 videodetails -------------------------------------------------------------------------------------------------------------------------------------- */
 .embed-responsive {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 .description-tag-video-deatails {
   font-weight: bolder;
 }
 
-
 /*
 list-group -------------------------------------------------------------------------------------------------------------------------------------- */
-
 
 .videodetails .details {
   margin-top: 10px;
